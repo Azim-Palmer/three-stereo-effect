@@ -106,8 +106,8 @@ module.exports = function(THREE, renderer) {
 			_cameraL.projectionMatrix.makePerspective(
 				- _outer,
 				_inner,
-				_bottom,
 				_top,
+				_bottom,
 				camera.near,
 				camera.far
 			);
@@ -121,8 +121,8 @@ module.exports = function(THREE, renderer) {
 			_cameraR.projectionMatrix.makePerspective(
 				- _inner,
 				_outer,
-				_bottom,
 				_top,
+				_bottom,
 				camera.near,
 				camera.far
 			);
